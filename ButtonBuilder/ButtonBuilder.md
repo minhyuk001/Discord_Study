@@ -18,6 +18,6 @@ const row = new ActionRowBuilder()
     .addComponents(button);     // ButtonFunction Name
 
 await interaction.reply({       // ButtonMessage Send
-    content: `Testing Button`,    // ButtonMessage
+    content: `Testing Button`,  // ButtonMessage
     components: [row],          // ActionRowBuiler Function Name
 ```
