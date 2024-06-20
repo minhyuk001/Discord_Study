@@ -10,5 +10,5 @@
 ```typescript
 const button = new ButtonBuilder()
 	.setLabel('Title')
-	.setStyle(ButtonStyle.(ButtonColor or ButtonLink));
+	.setStyle(ButtonStyle.Success);	// ButtonStyle ( .Success or .Link )
 ```
